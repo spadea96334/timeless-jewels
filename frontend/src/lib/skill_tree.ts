@@ -432,7 +432,7 @@ export const constructQuery = (jewel: number, conqueror: string, result: SearchW
         option: 'online'
       },
       name: data.TimelessJewels[jewel],
-      type: 'Timeless Jewel',
+      type: '永恆珠寶',
       stats
     },
     sort: {

@@ -13,15 +13,15 @@ const (
 func (t JewelType) String() string {
 	switch t {
 	case GloriousVanity:
-		return "Glorious Vanity"
+		return "輝煌的虛榮"
 	case LethalPride:
-		return "Lethal Pride"
+		return "致命的驕傲"
 	case BrutalRestraint:
-		return "Brutal Restraint"
+		return "殘酷的紀律"
 	case MilitantFaith:
-		return "Militant Faith"
+		return "激進的信仰"
 	case ElegantHubris:
-		return "Elegant Hubris"
+		return "優雅的高傲"
 	default:
 		return "N/A"
 	}
